@@ -23,9 +23,9 @@ def num_check(question):
 keep_going = ""
 while keep_going == "":
     # Get width and height and cost per meter
-    width = float(input("Enter the width of the fence (m):"))
-    height = float(input("Enter the height of the fence (m):"))
-    cost = float(input("Enter the cost per meter "))
+    width = num_check("Enter the width of the fence (m):")
+    height = num_check("Enter the height of the fence (m):")
+    cost = num_check("Enter the cost per meter ")
 
     # Calculate perimeter and price
     perimeter = 2 * (width + height)
